@@ -1,6 +1,6 @@
-from enum import Enum
+from enum import IntEnum
 
-class PoseType(Enum):
+class PoseType(IntEnum):
     REST = 0
     FIST = 1
     WAVE_IN = 2
